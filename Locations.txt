@@ -1,0 +1,8 @@
+G:\Monitoring\Scripts\BPA Projects\02_Projects\2017008_Bart³omiej Leszczyñski Masterdata file distribution\Test2
+C:\test\testmove1
+#NextSegment
+C:\test\testmove2\2015
+C:\test\testmove2\2016
+C:\test\testmove2\2017
+C:\test\testmove2\20114
+C:\test\testmove2\2011

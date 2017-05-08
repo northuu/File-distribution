@@ -1,0 +1,11 @@
+The script can be run from any location, but in needs access
+to all folders that will be used by it during it's work.
+
+All folders that script is using are specified in the file
+named Locations.txt.
+The structure of this file is as follows:
+1. line represents the default folder, the one in which
+the files that will be moved in the first step are now.
+
+From 2. line to line #NextSegment there are folders
+that files from default folder will be moved to.

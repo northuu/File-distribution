@@ -1,0 +1,7 @@
+; WshShell object: http://msdn.microsoft.com/en-us/library/aew9yb99
+shell := ComObjCreate("WScript.Shell")
+; Execute a single command via cmd.exe
+exec := shell.Exec(ComSpec " /C " "ipconfig") ; " /K wont close cmd after script runs, ComSpec is a environmental variable pointing to default DOS or cmd.exe etc.
+; Read and return the command's output
+tt:= exec.StdOut.ReadAll()
+Msgbox % tt
